@@ -1,0 +1,281 @@
+
+body{
+    font-family: sans-serif;
+    /* padding-bottom: 40px; */
+    width: 90%;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.paragrafs{
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    width: 30%;
+    justify-content: space-between;
+}
+.paragrafs p{
+    font-weight: 600;
+}
+.btnLogin{
+    border: none;
+    background-color: white;
+    color: #96BB7C;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px;
+}
+.btnJoin{
+    border: none;
+    background-color: #96BB7C;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+input button{
+    outline: none;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    position: relative;
+    z-index: -1; 
+    /* left: -100px; */
+    width: 790px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.left{
+    position: relative;
+}
+.h1{
+    font-size: 40px;
+}
+.p{
+    color: #737373;
+    font-weight: 600;
+}
+.btnLearn{
+    background-color: white;
+    color: #96BB7C;
+    border: 1px solid #96BB7C;
+    padding: 11px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.car1{
+    width: 250px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.m1{
+    width: 300px;
+    text-align: center;
+}
+.h2{
+    color: #96BB7C;
+}
+.card3{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.col{
+    width: 400px;
+}
+.btn{
+    margin-left: 1px;
+}
+.lef{
+    width: 500px;
+    line-height: 2;
+}
+.card4{
+    margin-top: 100px;
+}
+.p1{
+    width: 405px;
+    color: #737373;
+}
+.cad{
+    display: flex;
+    justify-content: space-between;
+}
+.imh{
+    width: 300px;
+}
+.cad1{
+    width: 300px;
+    box-shadow: 0px 0px 15px #ccc;
+    padding: 10px;
+     border-radius: 10px;
+}
+.parf{
+    width: 180px;
+    /* text-align: center; */
+}
+.u{
+    display: flex;
+    align-items: center;
+}
+.pi{
+    color: #96BB7C;
+    position: relative;
+    top: 10px;
+}
+.po{
+    position: relative;
+    bottom: 5px;
+}
+.user1{
+    width: 300px;
+}
+.users{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.pu{
+    width: 410px;
+    color: #737373;
+    font-weight: 550;
+}
+.u1{
+    width: 239px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.card7{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.inpEmail{
+    padding: 10px;
+    background-color: #E6E6E6;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btnSub{
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #96BB7C;
+    color: white;
+}
+.card8{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.div1 p{
+    font-weight: 600;
+    color: #737373;
+}
+.card9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    width: 107.3%;
+    padding: 20px;
+    margin-left: -60px;
+}
+@media (max-width:480px) {
+    .paragrafs{
+        display: none;
+    }
+    .card1{
+        flex-wrap: wrap;
+    }
+    .image{
+        margin-left: -270px;
+        width: 600px;
+    }
+    .cards{
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .card2{
+        flex-wrap: wrap;
+    }
+    .m1{
+        width: 150px;
+    }
+    .card3{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .cad{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-left: 20px;
+    }
+    .p1{
+        width: 300px;
+    }
+    .users{
+        flex-wrap: wrap;
+        margin-left: 50px;
+        gap: 50px;
+    }
+    .user{
+        flex-wrap: wrap;
+        margin-left: 50px;
+        gap: 50px;
+    }
+    .pu{
+        width: 320px;
+    }
+    .card7{
+        width: 300px;
+    }
+    .card8{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .card9 h3{
+        display: none;
+    }
+    .card9 img{
+        margin-left: 160px;
+    }
+}
